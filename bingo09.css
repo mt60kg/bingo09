@@ -1,0 +1,74 @@
+@media screen and (max-width:480px) {
+ 
+    /*　画面サイズが480px以下の場合ここの記述が適用される　*/
+ 
+ }
+
+/* テキスト入力のスタイル */
+input.tex{
+    font-size: 18px;
+}
+
+/* カード全体のスタイル */
+#bingo{
+    width: 340px;
+    margin: 10px;
+    table-layout: fixed;
+}
+
+/* B I N G Oと番号のスタイル */
+#bingo th,
+#bingo td {
+    text-align: center;
+    font-weight: normal;
+    overflow-wrap : break-word;
+}
+
+/* 番号のスタイルを設定 */
+#bingo td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    
+    /* border-radius: 1.5rem 1.5rem 0 0; */
+    color: #000000;
+    background-color: #F0F0F0;
+    border: 2px solid #000000;
+}
+
+/* 番号をチェックした時に変更するクラス、スタイルを設定 */
+#bingo td.bgRed {
+    color: #000000;
+    background-color:red;
+}
+#bingo td.bgGreen {
+    color: #000000;
+    background-color:lightgreen;
+}
+#bingo td.bgBlue {
+    color: #000000;
+    background-color:skyblue;
+}
+#bingo td.bgYellow {
+    color: #000000;
+    background-color:yellow;
+}
+#bingo td.bgOrange {
+    color: #000000;
+    background-color:orange;
+}
+#bingo td.bgPink {
+    color: #000000;
+    background-color:pink;
+}
+#bingo td.bgPurple {
+    color: #000000;
+    background-color:mediumpurple;
+}
+
+/* 番号をマウスオーバーした時にポインタを指矢印に変更 */
+#bingo td:hover {
+    cursor: pointer;
+    cursor: hand;
+}
